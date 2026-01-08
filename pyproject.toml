@@ -1,21 +1,19 @@
 [tool.poetry]
-name = "limbs3d"
-version = "0.1.0"
+name = "limb3d"
+version = "0.2.0"
 description = ""
 authors = ["fuji3to4 <sfujii@bio.kyutech.ac.jp>"]
-packages =[
-{include = "limbs3d"}
-]
+readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.10"
-open3d = "0.17.0"
-jupyter = "^1.0.0"
+python = "^3.11"
+open3d = "^0.19.0"
+jupyter = "^1.1.1"
 lsq-ellipse = "^2.2.1"
-pyvista = "^0.38.1"
-pymeshfix = "^0.16.2"
-pythreejs = "^2.4.1"
-scikit-learn = "^1.2.2"
+pyvista = "^0.46.4"
+pymeshfix = "^0.17.2"
+pythreejs = "^2.4.2"
+scikit-learn = "^1.8.0"
 
 
 [build-system]

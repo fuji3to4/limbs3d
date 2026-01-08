@@ -1,0 +1,9 @@
+.venv
+.git
+
+mytests
+*.bkp
+
+__pycache__
+
+*.code-workspace
