@@ -7,3 +7,4 @@ mytests
 __pycache__
 
 *.code-workspace
+uv.lock
